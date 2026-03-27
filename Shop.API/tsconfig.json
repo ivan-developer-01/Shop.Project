@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es5",
+		"sourceMap": true,
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"downlevelIteration": true,
+		"paths": {
+			"@Shared/*": ["../Shared/*"]
+		}
+	},
+	"exclude": ["node_modules"]
+}
